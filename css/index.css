@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Jura;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+a:hover {
+    text-decoration: underline;
+}
+.wrapper {
+    position: relative;
+}
+.header {
+    margin: 0;
+    padding: 4px 0;
+    text-align: center;
+    width: 100%;
+}
+.glass {
+    background: rgba(0,0,0,.5);
+    color: #fff;
+    margin-bottom: 15px;
+}
+.darkGlass {
+    background: rgba(0,0,0,.8);
+}
+.post {
+    padding: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.about {
+    padding-left: 0;
+    padding-right: 0;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+.about ul {
+    white-space: nowrap;
+}
+.about ul li {
+    border-right: 1px solid #fff;
+    display: inline-block;
+    text-align: center;
+}
+.about ul li:last-child {
+    border: 0;
+}
+.about ul.bioList li {
+    width: 33%;
+}
+.about ul.contentList li {
+    width: 50%;
+}
+.about .bio {
+    padding: 0 5px;
+    text-align: center;
+}
+.navButtonsWrapper {
+    text-align: right;
+    padding: 0;
+}
+.navButtons li {
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    text-align: center;
+}
+.navButtons li a,
+.navButtons li span {
+    display: inline-block;
+    padding-top: 5px;
+}
+.navButtons li.elipsis {
+    vertical-align: sub;
+}
+.timestamp {
+    font-size: 12px;
+    color: #AFAFAF;
+    margin-left: 5px;
+    display: inline-block;
+}
+@media only screen and (max-width: 500px) {
+    .post {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
