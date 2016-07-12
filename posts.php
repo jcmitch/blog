@@ -55,7 +55,7 @@ HTML;
         <link rel="stylesheet" type="text/css" href="./css/stars.css">
         <link rel="stylesheet" type="text/css" href="./css/index.css">
         <link rel="stylesheet" type="text/css" href="./css/posts.css">
-        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Jura:300,400,500,600">
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Jura:300,400,500,600">
         <script src="/lib/js/jquery.min.js"></script>
         <script src="./js/stars.js"></script>
     </head>
