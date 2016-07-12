@@ -52,12 +52,12 @@ HTML;
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
-        <link rel="stylesheet" type="text/css" href="./apps/css/stars.css">
+        <link rel="stylesheet" type="text/css" href="./css/stars.css">
         <link rel="stylesheet" type="text/css" href="./css/index.css">
         <link rel="stylesheet" type="text/css" href="./css/posts.css">
         <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Jura:300,400,500,600">
         <script src="/lib/js/jquery.min.js"></script>
-        <script src="./apps/js/stars.js"></script>
+        <script src="./js/stars.js"></script>
     </head>
     <body>
         <canvas id="starCanvas"></canvas>
