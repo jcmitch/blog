@@ -1,5 +1,5 @@
 <?php
-    $currentPasscode = '123';
+    $currentPasscode = '1263';
 
     $season = !empty($_GET['season']) ? $_GET['season'] : '2016';
 
@@ -20,7 +20,7 @@
     $passcode = '';
 
     $updateDates = array(
-        '2016' => 'May 26th 2016',
+        '2016' => 'July 11th 2016',
         '2015' => 'October 5th 2015'
     );
 
