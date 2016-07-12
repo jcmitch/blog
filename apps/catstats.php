@@ -36,8 +36,8 @@
 
     // get real users
     if ($passcode === $currentPasscode) {
-        $userOne['nickname'] = 'User1';
-        $userTwo['nickname'] = 'User2';
+        $userOne['nickname'] = 'Chas';
+        $userTwo['nickname'] = 'Jeremy';
     }
 
     $headerMarkup = '<h1 class="headline">'.$season.' Season Cat Stats ';
